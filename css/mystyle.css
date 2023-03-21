@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body {
+background-color: grey;
+font-family: sans-serif;
+}
+header img{width: 150px; float: left;}
+header h1{float: left; 
+font-size: 62px;
+margin-top: 30px;
+margin-left: 20px;
+width: 600px;
+border-bottom: 5px solid grey}
+header, section#profil, section#aktivitas, footer 
+{width: 800px; 
+    margin: auto;
+     padding: 15px;}
+     section#profil h1 ,section#aktivitas {margin-bottom: 50px;
+    }
+     section#profil h1,section#aktivitas h1{ 
+        text-align: center;
+        font-size: 32px;
+        background-color: grey;
+        padding: 10px;
+    }
+header, section#profil, section#aktivitas
+{background-color:wheat;
+border-bottom: 2px solid grey;
+}
+#profil-container img{ width: 200px;
+float: left;
+margin-right: 5px;}
+#profil-container #deskripsi-profil{width: 700px; 
+text-align: justify;}
+.item img ,.item p{width: 700px;
+    display: block;
+margin: auto;}
+#item
+.item p{text-align: justify;
+padding: 10px;
+margin-top: 10px;
+margin-bottom: 25px;}
+#profi-container {width: 700px;
+margin: auto;}
+footer a{display: block;
+text-align: center;
+font-size: 24px;
+color: wheat;
+text-decoration: none;
+background-color:grey;
+width: 200px;
+margin: auto;
+padding: 10px 0;}
+footer a:hover{background-color: blue;}
+footer {
+    background-color: wheat;
+}
+.logo-container {clear: both;}
+.profil {clear: both;}
